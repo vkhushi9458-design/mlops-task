@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MLOps Batch Job (Rolling Mean Signal Pipeline)
 
 ## 📌 Overview
@@ -156,3 +157,6 @@ docker run --rm mlops-task
 ## 🚀 Conclusion
 
 This project demonstrates a clean, production-style batch pipeline with reproducibility, observability, and deployment readiness.
+=======
+# mlops-task
+>>>>>>> 59ba0158122a4a4061a9de5f3d3927a303d2ffd2
