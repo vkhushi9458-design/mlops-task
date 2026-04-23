@@ -1,0 +1,59 @@
+2026-04-23 15:16:32,014 - INFO - Job started
+2026-04-23 15:16:32,014 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-23 15:16:32,040 - ERROR - Job failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive\Desktop\task\run.py", line 89, in main
+    df = load_data(args.input)
+  File "C:\Users\Admin\OneDrive\Desktop\task\run.py", line 63, in load_data
+    raise Exception("Missing required column: close")
+Exception: Missing required column: close
+2026-04-23 15:18:22,468 - INFO - Job started
+2026-04-23 15:18:22,472 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-23 15:18:22,491 - ERROR - Job failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive\Desktop\task\run.py", line 94, in main
+    df = load_data(args.input)
+  File "C:\Users\Admin\OneDrive\Desktop\task\run.py", line 68, in load_data
+    raise Exception(f"Missing required column: close. Found columns: {list(df.columns)}")
+Exception: Missing required column: close. Found columns: ['timestamp,open,high,low,close,volume_btc,volume_usd', 'unnamed: 1']
+2026-04-23 15:25:22,657 - INFO - Job started
+2026-04-23 15:25:22,657 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-23 15:25:22,691 - INFO - Rows loaded: 10000
+2026-04-23 15:25:22,691 - INFO - Computing rolling mean
+2026-04-23 15:25:22,701 - INFO - Generating signal
+2026-04-23 15:25:22,707 - INFO - Metrics: {'version': 'v1', 'rows_processed': 10000, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 44, 'seed': 42, 'status': 'success'}
+2026-04-23 15:25:22,707 - INFO - Job completed successfully
+2026-04-23 15:28:17,245 - INFO - Job started
+2026-04-23 15:28:17,249 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-23 15:28:17,249 - ERROR - Job failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive\Desktop\task\run.py", line 94, in main
+    df = load_data(args.input)
+  File "C:\Users\Admin\OneDrive\Desktop\task\run.py", line 50, in load_data
+    raise Exception("Input file not found")
+Exception: Input file not found
+2026-04-23 15:29:25,421 - INFO - Job started
+2026-04-23 15:29:25,422 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-23 15:29:25,459 - INFO - Rows loaded: 10000
+2026-04-23 15:29:25,459 - INFO - Computing rolling mean
+2026-04-23 15:29:25,459 - INFO - Generating signal
+2026-04-23 15:29:25,459 - INFO - Metrics: {'version': 'v1', 'rows_processed': 10000, 'metric': 'signal_rate', 'value': 0.4991, 'latency_ms': 38, 'seed': 42, 'status': 'success'}
+2026-04-23 15:29:25,459 - INFO - Job completed successfully
+2026-04-23 15:29:32,978 - INFO - Job started
+2026-04-23 15:29:32,979 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-23 15:29:32,979 - ERROR - Job failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive\Desktop\task\run.py", line 94, in main
+    df = load_data(args.input)
+  File "C:\Users\Admin\OneDrive\Desktop\task\run.py", line 50, in load_data
+    raise Exception("Input file not found")
+Exception: Input file not found
+2026-04-23 15:33:31,152 - INFO - Job started
+2026-04-23 15:33:31,152 - INFO - Config loaded: seed=42, window=5, version=v1
+2026-04-23 15:33:31,152 - ERROR - Job failed
+Traceback (most recent call last):
+  File "C:\Users\Admin\OneDrive\Desktop\task\run.py", line 95, in main
+    df = load_data(args.input)
+  File "C:\Users\Admin\OneDrive\Desktop\task\run.py", line 50, in load_data
+    raise Exception("Description of what went wrong")
+Exception: Description of what went wrong
